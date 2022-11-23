@@ -1,4 +1,4 @@
-# Sample chnage
+# Sample change
 name: Build
 on:
   push:
