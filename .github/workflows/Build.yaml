@@ -4,9 +4,8 @@ on:
     branches: [ main ]
     
   pull_request:
-    branches: [main, satish-dev]
-    paths:
-    - "exp_c/myProj/**"
+    branches: [main, satish-dev*]
+
 jobs:
   Build-Bazel:
     runs-on: ubuntu-latest
