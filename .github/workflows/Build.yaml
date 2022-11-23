@@ -1,4 +1,4 @@
-# Sample change
+# Sample change from clone
 name: Build
 on:
   push:
