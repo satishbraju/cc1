@@ -9,9 +9,15 @@ load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
   name = "hello",
-  srcs = ["src/hello.cpp", "src/Copy.cpp"],
+  srcs = ["src/hello.cpp"],
 )
 
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+  name = "Copy",
+  srcs = ["src/Copy.cpp"],
+)
 
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
